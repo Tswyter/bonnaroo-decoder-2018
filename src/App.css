@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #31455A;
+  color: #FFF;
+}
+
+input {
+  font-size: 2rem;
+  padding: 1rem;
+  color: #31455A;
+  border: 0;
+  border-radius: 3px;
+  transition: 0.5s ease-in-out
+}
+
+input:focus {
+  outline-width: 0;
+  box-shadow: 0 5px 10px 6px HSLA(211, 29%, 15%, .50)
+}
+
+.App {
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
